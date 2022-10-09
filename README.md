@@ -1,5 +1,6 @@
-deploy-ec2-terraform
-Os comandos para iniciar o deploy da infraestrutura da VPC:
+# deploy-ec2-terraform
+##Os comandos para iniciar o deploy da infraestrutura da VPC:
+
 $ terraform init # irá preparar a pasta do projeto para iniciar o deploy; neste momento também será realizado o download do "source" declarado nos resources.
 
 $ terraform plan -out tfplan # O Terraform irá exibir aquilo que será alterado no seu ambiente Cloud; O '-out tfplan' é opcional.
